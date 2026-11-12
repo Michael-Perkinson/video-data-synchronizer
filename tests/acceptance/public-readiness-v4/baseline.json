@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "task_id": "public-readiness-v4",
+  "executed_test_count": 730,
+  "failed_test_ids": [],
+  "flaky_test_ids": [],
+  "skipped_test_ids": [],
+  "pytest_exit_code": 0,
+  "random_seed": 20260323,
+  "repetitions": 5
+}

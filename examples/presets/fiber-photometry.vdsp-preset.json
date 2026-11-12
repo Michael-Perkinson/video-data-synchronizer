@@ -1,0 +1,52 @@
+{
+  "kind": "video-data-sync-appearance-preset",
+  "schema_version": 1,
+  "traces": {
+    "colors_by_column": {
+      "dFoF_470": "#0072B2",
+      "Control_405": "#D55E00"
+    },
+    "preferred_channels": [
+      "dFoF_470",
+      "Control_405"
+    ],
+    "line_width": 2.0,
+    "transform": "raw",
+    "overlay": true
+  },
+  "composition": {
+    "layout": "side_by_side",
+    "panel_proportions": [
+      3,
+      2
+    ],
+    "advanced": {
+      "scale_font_size": 16,
+      "scale_line_width": 2.8,
+      "show_time_scale": true,
+      "show_signal_scale": true,
+      "time_scale_s": 0.0,
+      "signal_scale": 0.0,
+      "anchor": "Bottom left",
+      "background": "#ffffff",
+      "time_scale_label": "",
+      "signal_scale_label": "dF/F"
+    }
+  },
+  "export": {
+    "speeds": [
+      0.5,
+      1.0,
+      2.0
+    ],
+    "deflicker": false
+  },
+  "video_colour": {
+    "brightness": 0,
+    "contrast": 1.0,
+    "gamma": 1.0,
+    "r_gain": 1.0,
+    "g_gain": 1.0,
+    "b_gain": 1.0
+  }
+}

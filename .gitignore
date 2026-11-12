@@ -1,0 +1,50 @@
+# Local agent state can contain private paths and task data.
+/.agent/
+
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.test-tmp/
+.release-test-tmp/
+codex-pytest-temp/
+.wheel-check/
+pip-build-*/
+pip-ephem-*/
+pip-wheel-*/
+.coverage
+htmlcov/
+
+.venv/
+venv/
+.env
+.env.*
+
+build/
+dist/
+
+.idea/
+.vscode/
+.claude/
+.DS_Store
+Thumbs.db
+
+*.log
+*.tmp
+*.part
+*.autosave
+# Export audit sidecars may contain private local paths and study identifiers.
+*.run.json
+exports/
+output/
+
+# Local experimental examples are publication-sensitive. Replace them with
+# an explicitly licensed synthetic fixture before removing this rule.
+/Example data/
+/examples/generated_demo/
+
+# User projects may contain absolute paths or study identifiers.
+*.vdsp.json
+recent_projects.json

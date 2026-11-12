@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "scope": "Existing full-suite diagnostic, separate from focused acceptance baseline",
+  "command": "python -m pytest --count=5 --repeat-scope=session --randomly-seed=20260323 --junitxml=.test-isolated-suite.xml -v",
+  "collected_count": 1448,
+  "passed_count": 1442,
+  "failed_count": 1,
+  "skipped_count": 5,
+  "failed_test_ids": [
+    "tests/test_end_to_end_audit.py::test_gui_load_crop_play_export_search_restore"
+  ],
+  "flaky_test_ids": [
+    "tests/test_end_to_end_audit.py::test_gui_load_crop_play_export_search_restore"
+  ],
+  "failed_repetition": "1-5",
+  "failure_location": "tests/test_end_to_end_audit.py:305",
+  "failure": "wait_for(lambda: window._export_worker is None) exceeded its nominal 60-second deadline; AssertionError: []",
+  "other_repetitions_of_failed_test": "Four passed in this full-suite invocation; ten also passed across focused baseline/fresh",
+  "skip_reason": "avc1 encoder unavailable in this OpenCV build",
+  "process_exit_code": 3221226505,
+  "process_exit_hex": "0xC0000409",
+  "reported_elapsed_seconds": 28626.35,
+  "limitations": [
+    "Observed in this baseline worktree; not established as pre-existing by an independent clean-base comparison",
+    "Elapsed time spans interruption; no claim that this is uninterrupted execution time",
+    "Native process exit was abnormal despite a complete pytest summary and JUnit report",
+    "Failure may involve timing or environment; root cause not established and assertions were not weakened",
+    "pytest-repeat repeats pytest functions; eight unittest recorder tests execute once"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "task_id": "public-readiness-v2",
+  "runner": "runner.py",
+  "protected_paths": [
+    "tests/",
+    "tests/acceptance/public-readiness-v2/"
+  ],
+  "test_selection": [
+    "tests/acceptance/public-readiness/test_isolation.py",
+    "tests/test_data.py",
+    "tests/test_demo_generator.py",
+    "tests/test_launcher.py",
+    "tests/test_end_to_end_audit.py::test_gui_load_crop_play_export_search_restore",
+    "tests/test_end_to_end_audit.py::test_decoded_frames_crop_colour_speed_and_trace_timing",
+    "tests/test_end_to_end_audit.py::test_cancel_during_encoding_preserves_destination_and_cleans_temp",
+    "tests/test_end_to_end_audit.py::test_corrupt_media_never_replaces_existing_output",
+    "tests/test_projects_gui.py::test_complete_project_round_trip_preserves_preferences",
+    "tests/test_projects_gui.py::test_invalid_project_leaves_current_identity_untouched",
+    "tests/test_projects_gui.py::test_dirty_close_cancel_ignores_event"
+  ]
+}

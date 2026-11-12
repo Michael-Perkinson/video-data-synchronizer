@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "Video Data Synchronizer"
+version: "1.0.0"
+type: software
+date-released: 2026-07-13
+license: MIT
+repository-code: "https://github.com/Michael-Perkinson/video-data-synchronizer"
+authors:
+  - family-names: "Perkinson"
+    given-names: "Michael"
+abstract: "Desktop software for aligning video with numeric time-series signals, including photometry and other time-indexed measurements, and exporting synchronized visualizations."
