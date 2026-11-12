@@ -40,7 +40,7 @@ dev = [
   "build>=1.2,<2",
   # NumPy 2.5+ stubs use Python 3.12 syntax; keep mypy aligned with Python 3.11 support.
   "numpy>=1.26,<2.5",
-  "mypy>=1.10,<2",
+  "mypy>=1.10,<3",
   "pyright>=1.1.414,<2",
   "pip-audit>=2.7,<3",
   "pre-commit>=4,<5",
